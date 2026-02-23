@@ -11,4 +11,12 @@ package com.mycompany.mavenproject;
 public class Complex {
     private double real;
     private double imaginary;
+    
+    public double getRealPart(){
+        return real;}
+    
+    public double getImaginaryPart(){
+        return imaginary;
+    }
+    
 }
