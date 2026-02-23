@@ -9,5 +9,6 @@ package com.mycompany.mavenproject;
  * @author ms23ait
  */
 public class Complex {
-    
+    private double real;
+    private double imaginary;
 }
