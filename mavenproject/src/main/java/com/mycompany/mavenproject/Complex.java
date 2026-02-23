@@ -18,5 +18,15 @@ public class Complex {
     public double getImaginaryPart(){
         return imaginary;
     }
+   
+    public Complex add(Complex other){
+    double r = this.real + other.real;
+    double i = this.imaginary + other.imaginary;
+    return Complex;
+    }
     
+    public Complex subtract(Complex other){
+    double r = this.real - other.real;
+    double i = this.imaginary - other.imaginary;
+    }
 }
